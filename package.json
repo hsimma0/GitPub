@@ -1,7 +1,6 @@
 {
   "name": "gitpub",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,5 +11,16 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsimma0/GitPub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hsimma0/GitPub/issues"
+  },
+  "homepage": "https://github.com/hsimma0/GitPub#readme",
+  "keywords": [],
+  "description": ""
 }
