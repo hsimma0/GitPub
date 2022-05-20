@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Git Pub Food</title>
 </head>
 <body>
+    <style type="text/css">
+        body{
+            color: blanchedalmond;
+            background-color: steelblue;
+        }
+    </style>
+
+    <h1>AT FOO BAR</h1>
+    <h2><%= totalFood.name %></h2>
+    <% let code = ".jpg" %>
+
+    <img src="<% totalFood.image + code %>" alt="Here's-Photo">
+    <h3>Price: $<%= totalFood.price %></h3>
+
+
     
 </body>
 </html>
